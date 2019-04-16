@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Biru app</string>
+    <string name="title_home">Home</string>
+    <string name="title_recents">Recents</string>
+    <string name="title_dashboard">Ill go</string>
+    <string name="title_notifications">Messages</string>
+    <string name="title_vehicleStatus">Me</string>
+    <string name="random_header">Here is a random number between 0 and %1d</string>
+    <string name="title_activity_active_places">Explore</string>
+    <string name="title_activity_navigationactivity">Navigationactivity</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiamFtZXMtYmVycnkiLCJhIjoiY2psd25nZnhwMDJvMzN1cGdwaXlrZjNvaCJ9.xBLRPKBfpivwD71QlhoZvg</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="titleDummyFragment">Please provide a string</string>
+</resources>
+

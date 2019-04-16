@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_recents"
+        android:icon="@drawable/ic_restore_black_24dp"
+        android:title="@string/title_recents" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_near_me_black_24dp"
+        android:title="@string/title_activity_active_places" />
+
+    <item
+        android:id="@+id/navigation_serving"
+        android:icon="@drawable/ic_directions_walk_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+    android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_vehicleStatus" />
+
+</menu>

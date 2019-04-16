@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainView_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+            app:itemIconTint="@color/colorAccent"
+            app:itemTextColor="@color/colorAccent"
+            app:labelVisibilityMode="selected"
+            design:menu="@menu/navigation" />
+
+        <com.example.edgarnunezzenuitycom.basicsandroid.CustomViewPager
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="743dp"
+            app:layout_anchorGravity="bottom|center"
+            app:tabMode="fixed">
+
+        </com.example.edgarnunezzenuitycom.basicsandroid.CustomViewPager>
+
+
+</android.support.design.widget.CoordinatorLayout>
